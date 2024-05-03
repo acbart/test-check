@@ -1,0 +1,23 @@
+<div>
+    <div class="header">
+        <div class="title">test-check Example</div>
+        <p>
+            <strong>Good:</strong> You can use the buttons to turn the checkbox
+            on and then off.
+        </p>
+        <p>
+            <strong>Bad:</strong> If you click the checkbox, then you can no
+            longer control the checkbox with the buttons. The variable DOES
+            change value, but the state of the checkbox does not update. The
+            HTML Element also does get a <code>checked="checked"</code>, but
+            that does not cause anything to update visually.
+        </p>
+        <input type="checkbox" id="the-check-box" />
+        <button id="turn-off">Turn checkbox off</button>
+        <button id="turn-on">Turn checkbox on</button>
+        <div>
+            The status of the check box is:
+            <span id="the-check-box-status"></span>
+        </div>
+    </div>
+</div>
